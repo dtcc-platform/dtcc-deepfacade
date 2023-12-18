@@ -1,7 +1,6 @@
-# DTCC Template
+# DTCC DeepFacade
 
-DTCC Template is a template for creating clean and simple
-Python packages that include C++ code.
+Get pixel coordinates of windows in a facade from street view image
 
 Highlights:
 
@@ -29,7 +28,7 @@ supported by Sweden’s Innovation Agency Vinnova under Grant No. 2019-421 00041
 
 ## License
 
-DTCC Template is licensed under the
+DTCC DeepFacade is licensed under the
 [MIT license](https://opensource.org/licenses/MIT).
 
 Copyright is held by the individual authors as listed at the top of
