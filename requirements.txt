@@ -1,0 +1,4 @@
+ultralytics
+sahi
+easydict
+munkres

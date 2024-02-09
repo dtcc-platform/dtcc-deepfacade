@@ -3,9 +3,9 @@ requires = ["scikit-build-core", "pybind11==2.10.*", "wheel"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "dtcc-template"
+name = "dtcc-deepfacade"
 version = "0.0.1"
-description = "DTCC Template"
+description = "DTCC Deepfacade"
 readme = "README.md"
 authors = [
   { name = "Anders Logg", email = "logg@chalmers.se" },
@@ -19,13 +19,13 @@ classifiers = [
   "Programming Language :: Python :: C++",
   "License :: OSI Approved :: MIT License",
 ]
-dependencies = ["pybind11 >= 2.10.0, < 2.11.0"]
+dependencies = ["pybind11 >= 2.10.0, < 2.11.0","ultralytics", "sahi", "easydict", "munkres" ]
 
 [project.optional-dependencies]
 test = ["pytest"]
 
 [project.scripts]
-dtcc-template-main = "dtcc_template.scripts:main.main"
+dtcc-deepfacade-main = "dtcc_deepfacade.scripts:main.main"
 
 [tool.scikit-build]
 wheel.expand-macos-universal-tags = true

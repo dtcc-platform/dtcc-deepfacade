@@ -11,3 +11,12 @@ __pycache__
 *.so
 *.o
 *.a
+
+
+deepfacade
+results
+__pycache__
+dist
+tests/data
+dtcc_deepfacade/models
+dtcc_deepfacade/win_det_heatmaps/model
